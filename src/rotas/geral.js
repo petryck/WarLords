@@ -11,7 +11,7 @@ router.use(express.static(appRoot + '/public'));
 // HOME DO GAME
 router.get('/', function (req, res) {
 
-  res.sendFile(appRoot + '/src/game.html');
+  res.sendFile(appRoot + '/public/game.html');
   
 });
 
